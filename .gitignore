@@ -13,3 +13,4 @@ __pycache__/
 .garth/
 *.token
 tokens/
+*.egg-info/
