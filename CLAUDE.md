@@ -11,3 +11,7 @@ you may use client from garmin https://github.com/garmin/connect-personal-api-py
 
 # Exception: Python
 Python is allowed for the Garmin adapter only (`garmin-service/`), which wraps the Garmin Python client. Everything else stays TypeScript.
+
+# UI
+frontend should be in light blue and gray colours.
+Suggested font would be courier or any mono-spaced font.
