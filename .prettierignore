@@ -1,0 +1,7 @@
+node_modules
+dist
+.venv
+garmin-service
+package-lock.json
+PLAN.md
+CLAUDE.md

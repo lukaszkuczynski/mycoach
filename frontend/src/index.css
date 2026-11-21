@@ -1,0 +1,24 @@
+:root {
+  --bg: #e5e7eb;
+  --surface: #f1f7ff;
+  --border: #9db9dc;
+  --text: #34506f;
+  --text-h: #12315a;
+  --accent: #3b6fb6;
+  --stripe: rgba(59, 111, 182, 0.1);
+
+  --mono: 'Courier New', Courier, ui-monospace, monospace;
+
+  font: 16px/1.5 var(--mono);
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
