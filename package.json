@@ -1,0 +1,26 @@
+{
+  "name": "mycoach",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev -w backend",
+    "dev:frontend": "npm run dev -w frontend",
+    "dev:garmin": "cd garmin-service && .venv/bin/uvicorn garmin_service.main:app --host 127.0.0.1 --port 8001 --reload",
+    "build": "npm run build -w backend -w frontend",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "eslint": "^9",
+    "eslint-plugin-react-hooks": "^5",
+    "globals": "^15",
+    "prettier": "^3",
+    "typescript-eslint": "^8"
+  },
+  "type": "module"
+}

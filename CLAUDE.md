@@ -8,3 +8,6 @@ Let the backend be based on express, frontend on react.
 # Used APIs
 Garmin API that can be used can be retrieved from https://developer.garmin.com/gc-developer-program/personal/swagger-docs/.
 you may use client from garmin https://github.com/garmin/connect-personal-api-python
+
+# Exception: Python
+Python is allowed for the Garmin adapter only (`garmin-service/`), which wraps the Garmin Python client. Everything else stays TypeScript.
